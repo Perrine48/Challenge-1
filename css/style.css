@@ -119,3 +119,11 @@ article a {
     text-decoration: none;
     color: #7a7a7a;
 }
+/*Retour vers le haut---------------------------------------------*/
+.up {
+    color: black;
+    position: fixed;
+    right: 15%;
+    top: 90%;
+    font-size: 1.5em;
+}
