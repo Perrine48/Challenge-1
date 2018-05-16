@@ -1,11 +1,102 @@
+/*Reset---------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*Fond------------------------------------------------------*/
+body {
+    background-image: url(file:///home/salce/Code/challenge_1/img/bar.jpg);
+}
+
 /*Header----------------------------------------------------*/
 
-    /*Navigation--------------------------------------------*/
+header {
+    background-color: black;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 0.5%;
+}
 
+    /*Navigation--------------------------------------------*/
+nav {
+    width:
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 1.5%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.selected {
+    color: #cfa205;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
     /*Titre-------------------------------------------------*/
 
+h1 {
+    color: #cfa205;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 6em;
+    margin-top: 4%;
+}
+
+h2 {
+    color: #cfa205;
+    font-family: 'Bitter', serif;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
 
 /*Barre réseaux sociaux-------------------------------------*/
 
+.social {
+    background-color: #e8e8e8;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
 
 /*Texte principal-------------------------------------------*/
+
+main {
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Bitter', serif;
+}
+
+/*Articles--------------------------------------------------*/
